@@ -1,0 +1,98 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    /*background: url(/images/bg.jpg);*/
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+a {
+    color: #FDBD58;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin: 2rem 0;
+}
+
+
+.row {
+    border: 2px solid #DDD;	
+    color: #333;
+	margin: 5px;
+	height: 170px;
+	text-align: center;
+	padding-top: 70px;
+
+}
+
+.row.teaching {
+	padding-top: 0;
+	height: 240px;
+}
+
+#hero {
+	height: 250px;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+
+#messages {
+	float: left;
+	border: 1px solid #DDD;
+	width: 45%;
+	height: 170px;
+	text-align: center;
+	padding-top: 70px;
+
+
+}
+
+#pastor-pen {
+	border: 1px solid #DDD;
+	width: 45%;
+	margin-left: 48%;
+	height: 170px;
+	text-align: center;
+	padding-top: 70px;
+
+}
+
+#key-events {
+	clear: both;
+
+}
+
+
+.welcome {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 35.625rem;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+.welcome .star {
+    width: 14.875rem;
+    margin-bottom: 2rem;
+}
+
+.welcome p, .welcome a {
+    letter-spacing: 0.8;
+    line-height: 2rem;
+}
